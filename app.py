@@ -16,4 +16,4 @@ def myWorks():
 def myResume():
     return render_template("myResume.html")
 
-app.run()
+app.run(host='0.0.0.0', port=443)
